@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box
- }
+}
+
 :root {
-   --nav-background-color: steelblue;
-   --heading-font: "Montserrat", Helvectica, sans-serif;
-   --body-font: Roboto, Arial, sans-serif;
-   --heading-font-color: darkblue;
+    --nav-background-color: steelblue;
+    --heading-font: "Montserrat", Helvectica, sans-serif;
+    --body-font: Roboto, Arial, sans-serif;
+    --heading-font-color: darkblue;
 }
 
 nav {
@@ -31,6 +32,7 @@ body {
     font-size: 14px;
     font-family: var(--body-font);
 }
+
 main img {
     width: 150px;
     height: auto;
@@ -67,8 +69,9 @@ aside img {
 aside h2 {
     position: absolute;
     top: 20px;
-    left: 70px  
+    left: 70px
 }
+
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;

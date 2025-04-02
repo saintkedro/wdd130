@@ -1,0 +1,158 @@
+:root {
+    --primary-color: #0956AE;
+    --secondary-color: #FBFF12;
+    --accent1-color: #F4FAFF;
+    --accent2-color: #92A0B5;
+    --text-color: #333333;
+    --heading-font: 'Oswald'
+    --text-font: 'Lato'
+
+}
+
+header {
+    color: var(--accent1-color);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+/* Logo styling*/
+header img {
+    height: 60px;
+    width: auto; 
+    display: block;
+}
+
+/* Navigation Styling */
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+/* Navigation Links */
+nav a {
+    text-decoration: none;
+    color: var(--primary-color); 
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* Set max width for page content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero {
+    position: relative;
+    width: 100%
+
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.hero article {
+    position:absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 1.2rem;
+    text-align: left;
+    background: rgba(247, 244, 244, 0.6);
+    padding: 15px;
+    border-radius: 5px;
+    width: 50%;
+    max-width: 600px;
+
+}
+
+.hero article img {
+    float: right;
+    margin-left: 15px;
+    max-width: 50%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: var(--text-color);
+    background-color: var(--accent1-color);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+h1,h2,h3 {
+    font-family: 'Oswald', sans-serif;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    text-align: center;
+    font-size: 2.5rem;
+    text-shadow: 3px 3px 5px #777;
+    color: var(--primary-color);
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--text-color);
+    margin-bottom: 15px
+}
+
+/* Footer styling */
+footer {
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+    text-align: centerr;
+    padding: 20px;
+}
+
+footer .sociallinks img {
+    width: 30px;
+    height: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer .social-media a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10;
+
+}
