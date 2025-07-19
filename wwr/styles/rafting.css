@@ -4,8 +4,8 @@
     --accent1-color: #F4FAFF;
     --accent2-color: #92A0B5;
     --text-color: #333333;
-    --heading-font: 'Oswald';
-    --text-font: 'Lato';
+    --heading-font: 'Oswald', sans-serif;
+    --text-font: 'Lato' sans-serif;
 
 }
 
