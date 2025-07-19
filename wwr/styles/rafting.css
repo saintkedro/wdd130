@@ -4,8 +4,8 @@
     --accent1-color: #F4FAFF;
     --accent2-color: #92A0B5;
     --text-color: #333333;
-    --heading-font: 'Oswald'
-    --text-font: 'Lato'
+    --heading-font: 'Oswald';
+    --text-font: 'Lato';
 
 }
 
@@ -137,7 +137,7 @@ p {
 footer {
     background-color: var(--secondary-color);
     color: var(--accent1-color);
-    text-align: centerr;
+    text-align: center;
     padding: 20px;
 }
 
@@ -153,6 +153,6 @@ a {
 footer .social-media a {
     text-decoration: none;
     display: inline-block;
-    margin: 0 10;
+    margin: 0 10px;
 
 }
