@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box; 
 }
 
 :root {
@@ -14,12 +14,18 @@
 nav {
     background-color: var(--nav-background-color);
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 h1 {
@@ -68,12 +74,12 @@ aside img {
 
 aside h2 {
     position: absolute;
-    top: 20px;
+    top: 25px;
     left: 70px
 }
 
 footer {
-    margin-top: 15px;
+    margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
 }
@@ -84,7 +90,7 @@ footer {
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 1rem;
     color: #000;
-    background-color: #ddd;
+    background-color: #eee;
 
 }
 
