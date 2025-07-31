@@ -51,7 +51,7 @@ header img {
 }
 /* Set max width for page content */
 .container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -89,9 +89,9 @@ header img {
     text-align: left;
     background: rgba(247, 244, 244, 0.6);
     padding: 15px;
-    border-radius: 5px;
-    width: 50%;
-    max-width: 1500px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 1300px;
 }
 
 .hero article img {
@@ -114,9 +114,10 @@ body {
     gap: 20px;
     align-items: flex-start;
     justify-content: space-between;
-    margin: 10px 0;
+    margin: 0;
     flex-wrap: wrap; /* for responsiveness */
     max-width: 1200px;
+    padding: 40px 5%;
 }
 
 .history-paragraph {
@@ -200,17 +201,40 @@ p {
 footer {
     background-color: var(--secondary-color);
     color: var(--accent1-color);
-    text-align: center;
     padding: 20px;
 }
 
-footer .sociallinks img {
-    width: 30px;
-    height: 30px;
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    position: relative;
+    
+}
+footer p {
+    margin: 0 auto;
+    font-size: 0.95rem;
+    color: var(--text-color);
+    text-align: center;
+    flex: 1;
 }
 
-footer .sociallinks a {
-    text-decoration: none;
+footer .sociallinks {
+    display: flex;
+    gap: 15px;
+}
+
+footer .sociallinks img {
+    width: 25px;
+    height: 25px;
     display: inline-block;
-    margin: 0 10px;
+}
+
+footer .sociallinks {
+    display: flex;
+    gap: 15px;
+    justify-content: right;
 }
