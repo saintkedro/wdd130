@@ -238,3 +238,121 @@ footer .sociallinks {
     gap: 15px;
     justify-content: right;
 }
+
+/* === Contact Page Styles === */
+
+.contact-info {
+    background-color: #f2f2f2;
+    padding: 30px 5%;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+.contact-info iframe {
+    margin-top: 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+/* Team Section */
+.employee-profiles {
+    margin: 40px 0;
+}
+
+.employee-profiles h2 {
+    text-align: center;
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+}
+
+.employee-profiles .adventure-gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.employee-profiles figure {
+    width: 250px;
+    text-align: center;
+}
+
+.employee-profiles img {
+    width: 80%;
+    height: 80%;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    object-fit: cover;
+}
+
+/* Contact Form */
+.contact-form {
+    background-color: #f9f9f9;
+    padding: 30px 5%;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-form input[type="radio"],
+.contact-form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.contact-form button[type="submit"] {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #2a6f97;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #1d4f6e;
+}
+
