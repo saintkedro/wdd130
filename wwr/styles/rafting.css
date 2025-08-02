@@ -173,17 +173,15 @@ h1,h2,h3 {
 }
 
 h1 {
-    font-family: var(--heading-font);
     text-align: center;
     font-size: 2.5rem;
     text-shadow: 3px 3px 5px #777;
-    color: var(--primary-color);
+    
 }
 
 h2 {
     text-align: center;
     font-size: 2rem;
-    color: var(--primary-color);
 }
 
 h3 {
@@ -225,18 +223,13 @@ footer p {
 footer .sociallinks {
     display: flex;
     gap: 15px;
+    justify-content: right;
 }
 
 footer .sociallinks img {
     width: 25px;
     height: 25px;
     display: inline-block;
-}
-
-footer .sociallinks {
-    display: flex;
-    gap: 15px;
-    justify-content: right;
 }
 
 /* === Contact Page Styles === */
@@ -252,7 +245,6 @@ footer .sociallinks {
 .contact-info h2 {
     font-size: 1.75rem;
     margin-bottom: 10px;
-    color: #333;
 }
 
 .contact-info p {
